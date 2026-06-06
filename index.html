@@ -34,45 +34,80 @@
   </header>
 
   <!-- ===== HERO ===== -->
-  <section class="hero">
-    <div class="hero-content">
-      <p class="hero-eyebrow">Autonomous Operations</p>
-      <h1 class="hero-headline">
-        Built for buildings<br />where people come first
-      </h1>
-      <p class="hero-sub">
-        TritBot delivers autonomous cleaning and delivery solutions for
-        hospitality and care operations — reducing staff burden, protecting
-        service standards, and scaling across every floor.
-      </p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary">Book a Demo</a>
-        <a href="#products" class="btn btn-secondary">See Our Robots</a>
-      </div>
+  <section class="hero-section">
+    <!-- Background decoration -->
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <div class="hero-grid-overlay"></div>
     </div>
-    <div class="hero-visual">
-      <div class="hero-badge-group">
-        <div class="hero-badge">
-          <div class="badge-icon">&#x1F4E6;</div>
-          <div class="badge-label">TritBot Deliver</div>
-        </div>
-        <div class="hero-badge">
-          <div class="badge-icon">&#x2728;</div>
-          <div class="badge-label">TritBot Clean</div>
+
+    <div class="hero">
+      <!-- Left: text -->
+      <div class="hero-content">
+        <p class="hero-eyebrow">Autonomous Operations</p>
+        <h1 class="hero-headline">
+          Built for buildings<br />where people<br />come first
+        </h1>
+        <p class="hero-sub">
+          TritBot delivers autonomous cleaning and delivery solutions for
+          hospitality and care operations — reducing staff burden, protecting
+          service standards, and scaling across every floor.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-gold">Book a Demo</a>
+          <a href="#products" class="btn btn-outline-light">See Our Robots</a>
         </div>
       </div>
-      <div class="hero-stat-row">
-        <div class="hero-stat">
-          <span class="stat-number">24/7</span>
-          <span class="stat-label">Autonomous operation</span>
-        </div>
-        <div class="hero-stat">
-          <span class="stat-number">Multi-floor</span>
-          <span class="stat-label">Lift integration</span>
-        </div>
-        <div class="hero-stat">
-          <span class="stat-number">Multi-site</span>
-          <span class="stat-label">Centralised oversight</span>
+
+      <!-- Right: animated visual -->
+      <div class="hero-visual">
+        <div class="robot-showcase">
+          <!-- Orbit rings -->
+          <div class="orbit-ring ring-outer">
+            <div class="orbit-traveller"></div>
+          </div>
+          <div class="orbit-ring ring-inner">
+            <div class="orbit-traveller traveller-reverse"></div>
+          </div>
+
+          <!-- Central icon -->
+          <div class="showcase-core">
+            <div class="core-pulse"></div>
+            <span class="core-icon">&#x1F916;</span>
+          </div>
+
+          <!-- Floating product cards -->
+          <div class="float-card fc-deliver">
+            <span class="fc-icon">&#x1F4E6;</span>
+            <div class="fc-text">
+              <span class="fc-name">TritBot Deliver</span>
+              <span class="fc-tag">Delivery automation</span>
+            </div>
+          </div>
+
+          <div class="float-card fc-clean">
+            <span class="fc-icon">&#x2728;</span>
+            <div class="fc-text">
+              <span class="fc-name">TritBot Clean</span>
+              <span class="fc-tag">Cleaning automation</span>
+            </div>
+          </div>
+
+          <!-- Floating stat chips -->
+          <div class="stat-chip chip-1">
+            <span class="chip-val">24/7</span>
+            <span class="chip-lbl">Autonomous</span>
+          </div>
+          <div class="stat-chip chip-2">
+            <span class="chip-val">Multi-floor</span>
+            <span class="chip-lbl">Lift integration</span>
+          </div>
+          <div class="stat-chip chip-3">
+            <span class="chip-val">&#x1F512;</span>
+            <span class="chip-lbl">Secure access</span>
+          </div>
         </div>
       </div>
     </div>
